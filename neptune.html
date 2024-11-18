@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>كوكب نبتون</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0; /* لون خلفية الصفحة */
+            color: #333; /* لون النص */
+            font-family: Arial, sans-serif;
+        }
+
+        img {
+            max-width: 100%; /* جعل الصورة تتناسب مع عرض الصفحة */
+            height: auto; /* الحفاظ على نسبة العرض إلى الارتفاع */
+            border-radius: 15px; /* زوايا ناعمة للصورة */
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* ظل للصورة */
+            animation: rotate 10s linear infinite; /* إضافة أنيميشن للدوران */
+        }
+
+        @keyframes rotate {
+            from {
+                transform: rotate(0deg);
+            }
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+        .info {
+            max-width: 600px; /* عرض النص */
+            text-align: center; /* محاذاة النص في المنتصف */
+            background-color: white; /* لون خلفية النص */
+            padding: 20px; /* مساحة داخلية */
+            border-radius: 15px; /* زوايا ناعمة للنص */
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* ظل للنص */
+            margin-top: 20px; /* مسافة فوق النص */
+        }
+
+        h3 {
+            color: navy; /* لون العنوان */
+        }
+    </style>
+</head>
+<body>
+    <img src="Main interface wallpapers/neptune.png" alt="كوكب نبتون">
+    <div class="info">
+        <h3>### **معلومات عن كوكب نبتون**</h3>
+
+        <h3>1. **الجاذبية**:</h3>
+        <p>حوالي **1.14 ضعف جاذبية الأرض**. (الشخص الذي يزن 60 كجم على الأرض سيزن حوالي **68 كجم** على نبتون).</p>
+
+        <h3>2. **درجة الحرارة**:</h3>
+        <p>- متوسط درجة الحرارة: حوالي **-214 درجة مئوية**.<br>
+        - يعتبر واحدًا من أبرد الكواكب في النظام الشمسي.</p>
+
+        <h3>3. **المسافة من الأرض**:</h3>
+        <p>حوالي **4.3 مليار كيلومتر** في المتوسط.<br>
+        (يستغرق الضوء من نبتون إلى الأرض حوالي **4 ساعات و10 دقائق**).</p>
+
+        <h3>### **معلومات إضافية:**</h3>
+        <p>- **الحلقات**: يمتلك نبتون خمس حلقات رقيقة مكونة من جليد وغبار.<br>
+        - **الرياح**: يحتوي على أسرع رياح في النظام الشمسي، تصل سرعتها إلى **2,100 كيلومتر في الساعة**.<br>
+        - **اللون**: لونه أزرق عميق بسبب وجود الميثان في غلافه الجوي.<br>
+        - **الأقمار**: لديه 14 قمرًا معروفًا، وأكبرها هو **ترايتون**، الذي يدور حوله في الاتجاه المعاكس لدورانه.</p>
+    </div>
+</body>
+</html>
